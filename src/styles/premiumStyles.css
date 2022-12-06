@@ -1,0 +1,212 @@
+.navbar_premium {
+    /* background-image: url(https://static.vecteezy.com/system/resources/previews/007/885/464/non_2x/mountain-line-art-print-wallpaper-design-for-cover-background-abstract-contemporary-aesthetic-backgrounds-landscapes-illustrations-vector.jpg); */
+    background-color: rgb(31, 149, 204);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    color: white;
+}
+
+.navbar_premium h1 {
+    font-weight: 700;
+}
+
+.navbar_premium button {
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+
+.navbar_premium button:hover {
+    /* width: 183px;
+    height: 57px; */
+    transform: scale(1.06);
+    background-color: black;
+}
+
+.navbar_premium i {
+    text-decoration: underline;
+    font-style: normal;
+}
+
+.premium_info {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.button_cart1 {
+    border: none;
+    width: 300px;
+    height: 100px;
+}
+
+.button_cart1:hover {
+    background-color: rgb(182, 178, 178);
+}
+
+.button_cart1:active {
+    background-color: rgb(110, 108, 108);
+}
+
+.title_middle {
+    display: flex;
+    flex-direction: row;
+     justify-content: center; 
+     margin-top: 90px
+}
+
+.image_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px
+}
+
+#first_img {
+    display: flex; 
+    flex-direction: column; 
+    padding-top : 45px
+}
+ 
+#first_img img {
+    width: 150px;
+
+}
+
+#second_img {
+    display: flex; 
+    flex-direction: column; 
+    padding-top : 10px;
+}
+
+#second_img img {
+    width: 170px;
+    margin-left: 6%;
+    margin-top: 7%;
+
+}
+
+#third_img {
+    display: flex; 
+    flex-direction: column; 
+    /* padding-top : 10px */
+}
+
+#third_img img {
+    width: 190px;
+    margin-left: 21%;
+    margin-top: 2%;
+}
+
+@media (max-width: 1024px){
+    .navbar_premium h1 {
+         font-size: 28px;
+    }
+    .navbar_premium h4 {
+        font-size: 20px;
+   }
+   .premium_info {
+    font-size: 10px;
+   }
+}
+
+@media (max-width: 768px) {
+    #first_img img {
+        width: 100px;
+    }
+    #second_img img {
+        width: 100px;
+    }
+    #third_img img {
+        width: 100px;
+    }
+    .first_text {
+        font-size: 15px;
+    }
+    .second_text {
+        font-size: 15px;
+    }
+    .third_text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+    .navbar_premium {
+        padding-left: 40px;
+    }
+    .navbar_premium button {
+        width: 120px;
+        height: 50px;
+        font-size: 11px;
+    }
+    #first_img img {
+         width: 57px;
+    }
+    #second_img img {
+        width: 70px;
+   }
+   #third_img img {
+    width: 70px;
+   }
+    #first_img {
+        padding-top: 20px;
+   }
+   #second_img {
+    margin-left: 15px;
+   }
+   #third_img {
+      padding-top: 7px;
+} 
+    .image_info {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar_premium h1 {
+        font-size: 18px;
+    }
+    .navbar_premium h4 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .title_middle {
+        display: none;
+    }
+    .navbar_premium h4 {
+        font-size: 10px;
+    }
+    .navbar_premium p {
+        font-size: 6px;
+    }
+    .navbar_premium button {
+        width: 80px;
+        height: 25px;
+        font-size: 6px;
+    }
+    #first_img img {
+        display: none;
+   }
+  .first_text {
+    font-size: 10px;
+    margin-top: -9px;
+  }
+  .second_text {
+    font-size: 10px;
+  }
+  .third_text {
+    font-size: 10px;
+  }
+}
